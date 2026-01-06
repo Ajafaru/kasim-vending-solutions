@@ -39,7 +39,7 @@ export const Footer = () => {
               <img 
                 src={logo} 
                 alt="Kasim Vending" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
