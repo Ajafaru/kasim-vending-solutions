@@ -44,8 +44,7 @@ export const CTASection = ({
             <Button 
               asChild 
               size="lg"
-              variant="outline"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8"
+              className="border-2 border-accent bg-accent/20 text-white hover:bg-accent hover:text-accent-foreground text-lg px-8"
             >
               <a href="tel:+1234567890">
                 <Phone className="mr-2 w-5 h-5" />
