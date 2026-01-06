@@ -26,14 +26,14 @@ export const HeroSection = () => {
 
       <div className="container-section relative z-10 py-20">
         <div className="flex flex-col items-center text-center">
-          <span className="inline-block px-4 py-2 mb-6 text-sm font-semibold text-accent bg-accent/20 rounded-full animate-fade-in">
+          <span className="inline-block px-4 py-2 mb-4 text-sm font-semibold text-accent bg-accent/20 rounded-full animate-fade-in">
             🏆 Trusted by 500+ Locations
           </span>
 
           <img
             src={logo}
             alt="Kasim Vending"
-            className="w-full max-w-4xl lg:max-w-5xl xl:max-w-6xl drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up"
+            className="w-full max-w-2xl lg:max-w-3xl xl:max-w-4xl -mt-6 drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up"
           />
 
           <p className="text-lg md:text-xl text-white/80 mt-6 mb-8 max-w-2xl animate-slide-up stagger-1">
@@ -56,8 +56,7 @@ export const HeroSection = () => {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 text-lg px-8 py-6"
+              className="border border-white/60 bg-white text-slate-900 hover:bg-white/90 text-lg px-8 py-6"
             >
               <a href="tel:+1234567890">
                 <Phone className="mr-2 w-5 h-5" />
