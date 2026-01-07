@@ -187,8 +187,8 @@ const FAQ = () => {
                 </Link>
               </Button>
               <Button asChild size="lg" className="border-2 border-accent bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground">
-                <a href="tel:+1234567890">
-                  Call (123) 456-7890
+                <a href="tel:+447862061181">
+                  Call 07862 061181
                 </a>
               </Button>
             </div>
