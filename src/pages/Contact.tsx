@@ -158,7 +158,7 @@ const Contact = () => {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number *</Label>
-                      <Input id="phone" type="tel" required placeholder="(555) 123-4567" />
+                      <Input id="phone" type="tel" required placeholder="+44 7862 061181" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="company">Business/Organization Name *</Label>
@@ -274,7 +274,7 @@ const Contact = () => {
                   </h3>
                   <div className="space-y-6">
                     <a 
-                      href="tel:07862061181"
+                      href="tel:+447862061181"
                       className="flex items-start gap-4 group"
                     >
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
@@ -282,7 +282,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-medium text-foreground group-hover:text-accent transition-colors">
-                          07862 061181
+                          +44 7862 061181
                         </p>
                         <p className="text-sm text-muted-foreground">Call us anytime</p>
                       </div>
