@@ -117,27 +117,28 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a 
-                  href="tel:+1234567890"
+                  href="tel:07862061181"
                   className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
                 >
                   <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>(123) 456-7890</span>
+                  <span>07862 061181</span>
                 </a>
               </li>
               <li>
                 <a 
-                  href="mailto:info@kasimvending.com"
+                  href="mailto:Mansurkassim4@gmail.com"
                   className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
                 >
                   <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                  <span>info@kasimvending.com</span>
+                  <span>Mansurkassim4@gmail.com</span>
                 </a>
               </li>
               <li className="flex items-start gap-3 text-primary-foreground/80 text-sm">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <span>
-                  Serving the Greater Metro Area<br />
-                  Your City, State
+                  30 Longfellow Road<br />
+                  CV2 5HB, Coventry<br />
+                  West Midlands
                 </span>
               </li>
             </ul>
@@ -157,7 +158,7 @@ export const Footer = () => {
         <div className="container-section py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-primary-foreground/60">
-              © {currentYear} Kasim Vending. All rights reserved.
+              © {currentYear} KASSIMVENDING LTD. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-primary-foreground/60">
               <Link to="/privacy" className="hover:text-accent transition-colors">

@@ -274,7 +274,7 @@ const Contact = () => {
                   </h3>
                   <div className="space-y-6">
                     <a 
-                      href="tel:+1234567890"
+                      href="tel:07862061181"
                       className="flex items-start gap-4 group"
                     >
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
@@ -282,13 +282,13 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-medium text-foreground group-hover:text-accent transition-colors">
-                          (123) 456-7890
+                          07862 061181
                         </p>
                         <p className="text-sm text-muted-foreground">Call us anytime</p>
                       </div>
                     </a>
                     <a 
-                      href="mailto:info@kasimvending.com"
+                      href="mailto:Mansurkassim4@gmail.com"
                       className="flex items-start gap-4 group"
                     >
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
@@ -296,7 +296,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-medium text-foreground group-hover:text-accent transition-colors">
-                          info@kasimvending.com
+                          Mansurkassim4@gmail.com
                         </p>
                         <p className="text-sm text-muted-foreground">Email us anytime</p>
                       </div>
@@ -306,10 +306,11 @@ const Contact = () => {
                         <MapPin className="w-5 h-5 text-accent" />
                       </div>
                       <div>
-                        <p className="font-medium text-foreground">Service Area</p>
+                        <p className="font-medium text-foreground">Our Location</p>
                         <p className="text-sm text-muted-foreground">
-                          Greater Metro Area<br />
-                          Your City, State
+                          30 Longfellow Road<br />
+                          CV2 5HB, Coventry<br />
+                          West Midlands
                         </p>
                       </div>
                     </div>
