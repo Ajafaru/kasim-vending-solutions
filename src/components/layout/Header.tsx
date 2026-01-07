@@ -43,9 +43,9 @@ export const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-accent transition-colors" href="tel:+07862 061181">
+            <a className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-accent transition-colors" href="tel:+447862061181">
               <Phone className="w-4 h-4" />
-              07862 061181
+              +44 7862 061181
 
             </a>
             <Button asChild className="bg-accent hover:bg-orange-dark text-accent-foreground">
@@ -66,9 +66,9 @@ export const Header = () => {
                   {link.name}
                 </Link>)}
               <div className="pt-4 border-t border-border flex flex-col gap-3">
-                <a href="tel:+1234567890" className="flex items-center gap-2 text-base font-medium text-foreground/80">
+                <a href="tel:+447862061181" className="flex items-center gap-2 text-base font-medium text-foreground/80">
                   <Phone className="w-5 h-5" />
-                  (123) 456-7890
+                  +44 7862 061181
                 </a>
                 <Button asChild className="bg-accent hover:bg-orange-dark text-accent-foreground w-full">
                   <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>

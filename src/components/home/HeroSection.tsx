@@ -40,7 +40,7 @@ export const HeroSection = () => {
               </Link>
             </Button>
             <Button asChild size="lg" className="border-2 border-accent bg-accent/20 text-white hover:bg-accent hover:text-accent-foreground text-lg px-8 py-6">
-              <a href="tel:+1234567890">
+              <a href="tel:+447862061181">
                 <Phone className="mr-2 w-5 h-5" />
                 Call Now
               </a>
