@@ -27,7 +27,7 @@ export const HeroSection = () => {
             🏆 Trusted by 500+ Locations
           </span>
 
-          <img src={logo} alt="Kasim Vending" className="w-full max-w-xs sm:max-w-sm lg:max-w-md -mt-12 mb-2 mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up" />
+          <img alt="Kasim Vending" className="w-full max-w-xs sm:max-w-sm lg:max-w-md -mt-12 mb-2 mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up" src="/lovable-uploads/f3066021-0ad0-4a34-aa8d-8784ac5b5f0b.png" />
 
           <p className="text-lg md:text-xl text-white/80 mt-6 mb-8 max-w-2xl animate-slide-up stagger-1">Hassle-free vending machines with premium snacks, refreshing drinks, and healthy options. We handle everything — installation, stocking, and maintenance.</p>
 
@@ -40,7 +40,7 @@ export const HeroSection = () => {
               </Link>
             </Button>
             <Button asChild size="lg" className="border-2 border-accent bg-accent/20 text-white hover:bg-accent hover:text-accent-foreground text-lg px-8 py-6">
-              <a href="tel:+1234567890">
+              <a href="tel:+447862061181">
                 <Phone className="mr-2 w-5 h-5" />
                 Call Now
               </a>

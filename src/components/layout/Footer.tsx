@@ -1,77 +1,76 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import logo from "@/assets/kasim-vending-logo.png";
-
-const quickLinks = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "Industries", href: "/industries" },
-  { name: "About", href: "/about" },
-  { name: "FAQ", href: "/faq" },
-  { name: "Contact", href: "/contact" },
-];
-
-const serviceLinks = [
-  { name: "Full-Service Vending", href: "/services#full-service" },
-  { name: "Healthy Options", href: "/services#healthy" },
-  { name: "Micro-Markets", href: "/services#micro-markets" },
-  { name: "Maintenance & Support", href: "/services#maintenance" },
-];
-
-const industryLinks = [
-  { name: "Offices & Businesses", href: "/industries#offices" },
-  { name: "Schools & Universities", href: "/industries#schools" },
-  { name: "Healthcare Facilities", href: "/industries#healthcare" },
-  { name: "Gyms & Fitness Centers", href: "/industries#gyms" },
-];
-
+const quickLinks = [{
+  name: "Home",
+  href: "/"
+}, {
+  name: "Services",
+  href: "/services"
+}, {
+  name: "Industries",
+  href: "/industries"
+}, {
+  name: "About",
+  href: "/about"
+}, {
+  name: "FAQ",
+  href: "/faq"
+}, {
+  name: "Contact",
+  href: "/contact"
+}];
+const serviceLinks = [{
+  name: "Full-Service Vending",
+  href: "/services#full-service"
+}, {
+  name: "Healthy Options",
+  href: "/services#healthy"
+}, {
+  name: "Micro-Markets",
+  href: "/services#micro-markets"
+}, {
+  name: "Maintenance & Support",
+  href: "/services#maintenance"
+}];
+const industryLinks = [{
+  name: "Offices & Businesses",
+  href: "/industries#offices"
+}, {
+  name: "Schools & Universities",
+  href: "/industries#schools"
+}, {
+  name: "Healthcare Facilities",
+  href: "/industries#healthcare"
+}, {
+  name: "Gyms & Fitness Centers",
+  href: "/industries#gyms"
+}];
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-primary text-primary-foreground">
+  return <footer className="bg-primary text-primary-foreground">
       {/* Main Footer */}
       <div className="container-section py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
-              <img 
-                src={logo} 
-                alt="Kasim Vending" 
-                className="h-20 md:h-24 w-auto"
-              />
+              <img alt="Kasim Vending" className="h-20 md:h-24 w-auto" src="/lovable-uploads/95caeff2-68db-4cd1-929e-da86f44c789d.png" />
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
               Kasim Vending — reliable vending for modern spaces. We provide hassle-free vending solutions with premium products and exceptional service.
             </p>
             <div className="flex gap-4">
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors"
-                aria-label="Facebook"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="Facebook">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors"
-                aria-label="Instagram"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors"
-                aria-label="LinkedIn"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors"
-                aria-label="Twitter"
-              >
+              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors" aria-label="Twitter">
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -81,16 +80,11 @@ export const Footer = () => {
           <div>
             <h3 className="font-heading font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-3">
-              {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link 
-                    to={link.href}
-                    className="text-primary-foreground/80 hover:text-accent transition-colors text-sm"
-                  >
+              {quickLinks.map(link => <li key={link.name}>
+                  <Link to={link.href} className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                     {link.name}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -98,16 +92,11 @@ export const Footer = () => {
           <div>
             <h3 className="font-heading font-semibold text-lg mb-4">Our Services</h3>
             <ul className="space-y-3">
-              {serviceLinks.map((link) => (
-                <li key={link.name}>
-                  <Link 
-                    to={link.href}
-                    className="text-primary-foreground/80 hover:text-accent transition-colors text-sm"
-                  >
+              {serviceLinks.map(link => <li key={link.name}>
+                  <Link to={link.href} className="text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                     {link.name}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -116,19 +105,13 @@ export const Footer = () => {
             <h3 className="font-heading font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li>
-                <a 
-                  href="tel:07862061181"
-                  className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
-                >
+                <a href="tel:07862061181" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                   <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
                   <span>07862 061181</span>
                 </a>
               </li>
               <li>
-                <a 
-                  href="mailto:Mansurkassim4@gmail.com"
-                  className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
-                >
+                <a href="mailto:Mansurkassim4@gmail.com" className="flex items-start gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                   <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
                   <span>Mansurkassim4@gmail.com</span>
                 </a>
@@ -171,6 +154,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };

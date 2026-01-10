@@ -1,20 +1,17 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight } from "lucide-react";
-
 interface CTASectionProps {
   title?: string;
   subtitle?: string;
   showForm?: boolean;
 }
-
-export const CTASection = ({ 
+export const CTASection = ({
   title = "Ready to Upgrade Your Break Room?",
   subtitle = "Get a free, no-obligation quote for your location. Our team will assess your needs and recommend the perfect vending solution.",
-  showForm = false 
+  showForm = false
 }: CTASectionProps) => {
-  return (
-    <section className="section-padding bg-primary text-primary-foreground relative overflow-hidden">
+  return <section className="section-padding bg-primary text-primary-foreground relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-72 h-72 bg-accent rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
@@ -31,22 +28,14 @@ export const CTASection = ({
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              asChild 
-              size="lg"
-              className="bg-accent hover:bg-orange-dark text-accent-foreground text-lg px-8 btn-glow"
-            >
+            <Button asChild size="lg" className="bg-accent hover:bg-orange-dark text-accent-foreground text-lg px-8 btn-glow">
               <Link to="/contact">
                 Get a Free Quote
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            <Button 
-              asChild 
-              size="lg"
-              className="border-2 border-accent bg-accent/20 text-white hover:bg-accent hover:text-accent-foreground text-lg px-8"
-            >
-              <a href="tel:+1234567890">
+            <Button asChild size="lg" className="border-2 border-accent bg-accent/20 text-white hover:bg-accent hover:text-accent-foreground text-lg px-8">
+              <a href="tel:+447862061181">
                 <Phone className="mr-2 w-5 h-5" />
                 Call Now
               </a>
@@ -58,6 +47,5 @@ export const CTASection = ({
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
