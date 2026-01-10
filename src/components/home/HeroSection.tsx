@@ -27,7 +27,7 @@ export const HeroSection = () => {
             🏆 Trusted by 500+ Locations
           </span>
 
-          <img alt="Kasim Vending" className="w-full max-w-xs sm:max-w-sm lg:max-w-md -mt-12 mb-2 mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up" src="/lovable-uploads/f3066021-0ad0-4a34-aa8d-8784ac5b5f0b.png" />
+          <img alt="Kasim Vending" className="w-full max-w-xs sm:max-w-sm lg:max-w-md -mt-12 mb-2 mx-auto drop-shadow-[0_20px_35px_rgba(0,0,0,0.45)] animate-slide-up" src="/lovable-uploads/4014f77b-8efd-46e7-8984-35f446fccf42.png" />
 
           <p className="text-lg md:text-xl text-white/80 mt-6 mb-8 max-w-2xl animate-slide-up stagger-1">Hassle-free vending machines with premium snacks, refreshing drinks, and healthy options. We handle everything — installation, stocking, and maintenance.</p>
 
