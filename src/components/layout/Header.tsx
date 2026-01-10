@@ -66,8 +66,7 @@ export const Header = () => {
                   {link.name}
                 </Link>)}
               <div className="pt-4 border-t border-border flex flex-col gap-3">
-                <a href="tel:+1234567890" className="flex items-center gap-2 text-base font-medium text-foreground/80">
-                  <Phone className="w-5 h-5" />
+                <a className="flex items-center gap-2 text-base font-medium text-foreground/80" href="tel:+447862061181">+447862061181<Phone className="w-5 h-5" />
                   (123) 456-7890
                 </a>
                 <Button asChild className="bg-accent hover:bg-orange-dark text-accent-foreground w-full">
