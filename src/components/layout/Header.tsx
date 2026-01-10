@@ -67,7 +67,7 @@ export const Header = () => {
                 </Link>)}
               <div className="pt-4 border-t border-border flex flex-col gap-3">
                 <a className="flex items-center gap-2 text-base font-medium text-foreground/80" href="tel:+447862061181">+447862061181<Phone className="w-5 h-5" />
-                  (123) 456-7890
+                  +447862061181
                 </a>
                 <Button asChild className="bg-accent hover:bg-orange-dark text-accent-foreground w-full">
                   <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
